@@ -26,6 +26,7 @@ services:
     command: /resourcemanager.sh
     ports:
       - "18080:8088"
+      - "2222:22"
 
   nodemanager:
     image: vulhub/hadoop:2.8.1

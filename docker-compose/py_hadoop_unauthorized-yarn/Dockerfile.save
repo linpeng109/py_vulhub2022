@@ -1,0 +1,3 @@
+FROM vulhub/hadoop:2.8.1
+RUN apt update -y
+
